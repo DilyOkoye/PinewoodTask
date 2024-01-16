@@ -6,7 +6,7 @@
 
 2) This solution makes use of sql server database. Ensure that you have an instance of sql server installed on your machine
 
-## Running the App for the First time
+## Running the App
 1) Modify connection string in appsettings.json in the Crud.Api project to point to your sql server instance 
 
 2) Modify the Default & Master connection string in appsettings.json located in the Crud.Migration project to point to your sql server instance. 
