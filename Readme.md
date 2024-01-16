@@ -11,7 +11,8 @@
 
 2) Modify the Default & Master connection string in appsettings.json located in the Crud.Migration project to point to your sql server instance. 
 
-3) Set Crud.Migration as startup project and run the project to create database and table this leverages on https://dbup.readthedocs.io/en/latest/
+3) Set Crud.Migration as startup project and run the project to create database and table this leverages on a migration tool called [DbUp](https://github.com/user/repo/blob/branch/other_file.md).
+(This step 3 is only needed when you are running the application for the very first time, subsequent runs requires only step 4)
 
 4) Run the Crud.Api project to start the Web Api MVC project
 
